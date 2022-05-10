@@ -5,6 +5,9 @@
 html {
     box-sizing: border-box;
 }
+body {
+    background-color: #45badd;
+}
 .joke-container {
     display: flex;
     align-items: center;
@@ -15,12 +18,16 @@ html {
     max-width: 200px;
 }
 button#button {
-    background: red;
+    background: #ff3482;
     outline: 0;
     padding: 10px;
-    border: 1px solid red;
+    border: 1px solid #ff3482;
     color: white;
     font-size: 20px;
-    font-weight: bold;
     cursor: pointer;
+    box-shadow: 0 2px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+}
+button#button:hover {
+    transform: scale(0.95);
 }
